@@ -7,3 +7,5 @@ Commandline asci generative art
 
 См. превьюшку на проекторе: https://youtu.be/5PKT0Oir-EU
 
+
+PS осторожно, очень плохой код =)
