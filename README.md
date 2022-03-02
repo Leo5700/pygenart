@@ -1,5 +1,5 @@
-# pygen
-Commandline asci generative art
+# pygenart
+Commandline python asci generative art
 
 Небольшая, пока ещё примитивная среда для создания генеративной asci-графики непосредственно в консоли.
 
