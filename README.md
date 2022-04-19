@@ -1,5 +1,5 @@
 # pygenart
-Commandline python asci generative art
+Python commandline asci Generative Art
 
 Небольшая, пока примитивная среда для создания генеративной asci-графики непосредственно в консоли.
 "Движок", если можно это так назвать, живёт в файлах вида *_pga_*.py
