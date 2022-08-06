@@ -1,0 +1,71 @@
+220806
+В мануал:
+* как запустить скетч
+* что поставить сначала (питон, парочку модулей)
+* какие есть функции и как ими пользоваться
+    * элементарные примеры, короче
+        * ramptest
+* какой-то словарик
+    * ramp
+    * скетч
+* история
+    - решил показфвать что-то без лишних проводов и железа
+    - знал питон и termux под android
+    - какое-то время ковырялся с процессингом
+    - не нашел чего-то готового для androidTV на проекторе
+* в какой папке что лежит
+* как жить в termux см. запись 220442
+
+
+220501
+Уборка дело хорошее, но как, чёрт возьми, не захламлять сброс?
+Может, скидывать всё в develop...
+
+
+220426
+ignore dirs yandex-disk
+nano ~/.config/yandex-disk/config.cfg
+добавь строку
+exclude-dirs="/home/lev/Yandex.Disk/IGNORED/FOLDER/PATH"
+должно сработать
+
+
+220421
+Нужно понаделать примеров для основных функций
+    key, point (ys), stroke (alpha), point3d, framecount (-1), background (alpha), rotate,
+    translate (ys), rotate_coordinates,
+    width, height, rampnumber, rampinvert
+
+
+220420
+Доступ к микрофону через python через termux
+https://pypi.org/project/termux-api/
+
+
+220442
+Как жить в termux
+
+termux-change-repo
+выбрать все три
+потом любое кроме верхнего
+
+termux-setup-storage
+
+pkg update
+
+pkg upgrade
+
+pkg install python
+
+pkg install neovim  # (запускается как nvim)
+
+# ~/.bashrc добавить алиас (скопировать в буфер)
+alias cdpg="cd storage && cd downloads && cd pygenart && pwd"
+# в Downloads андроида создать папку pygenart
+# алиас можно добавить через nvim: 
+# nvim .bashrc
+# нажать i 
+# вставить команду из буфера
+# нажать ESC, :x
+
+pip install tinynumpy  # (для базового функционала)
